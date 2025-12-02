@@ -19,6 +19,10 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+.env.development
+.env.production
+server.env
+final/.env.*
 
 # Optional npm cache directory
 .npm/
@@ -48,6 +52,12 @@ coverage/
 
 # Firebase service account
 serviceAccountKey.json
+
+# Markdown files with secrets
+md/CONTABO_TO_AWS_MIGRATION_COMPLETE.md
+md/AWS_S3_SETUP_COMPLETE.md
+md/IMAGE_FIX_DEPLOYMENT_GUIDE.md
+md/NETLIFY_DEPLOYMENT_COMPLETE.md
 serviceAccountKey.json
 
 # Local Netlify folder
